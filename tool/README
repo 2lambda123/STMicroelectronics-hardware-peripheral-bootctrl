@@ -1,0 +1,9 @@
+misgen can be used to generate misc partition image
+
+Parameters
+- xPrio: slot priority = value between 0 and 15 (higher value is higher priority)
+- xTry: number of remaining tries for this stot = value between 0 and 7
+- xSuccess: boot successful for this slot = value 0 (false) or 1 (true)
+
+Recommendation (initial image with _a/_b partitions), execute following command:
+  miscgen 7 7 1 0 7 0
