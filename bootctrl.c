@@ -30,6 +30,7 @@
 #include <cutils/properties.h>
 #include <zlib.h>
 
+#define constexpr static
 #include <bootloader.h>
 
 #include "bootctrl.h"
